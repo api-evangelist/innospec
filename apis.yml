@@ -49,6 +49,12 @@ apis:
     description: >-
       The Innospec API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: Plans
+    url: plans/innospec-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/innospec-rate-limits.yml
+  - type: FinOps
+    url: finops/innospec-finops.yml
   - url: https://innospec.com/news/
     type: Blog
   - type: DomainSecurity
